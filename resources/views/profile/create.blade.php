@@ -7,10 +7,15 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #3e4a61;
             text-align: center;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to bottom, #6e7a8a, #3e4a61, #222831);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         header {
@@ -19,6 +24,7 @@
             padding: 15px 20px;
             text-align: center;
             font-size: 24px;
+            width: 100%;
         }
 
         form {
@@ -27,12 +33,12 @@
             flex-direction: column;
             align-items: center;
             gap: 20px;
-        }
-
-        div {
             width: 100%;
             max-width: 500px;
-            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(30, 42, 56, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         label {
@@ -46,7 +52,6 @@
         input {
             width: 100%;
             padding: 10px;
-            margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
             font-size: 16px;
@@ -76,7 +81,7 @@
 
             form {
                 margin-top: 20px;
-                width: 80%;
+                width: 90%;
             }
 
             input {
