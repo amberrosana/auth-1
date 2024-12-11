@@ -165,11 +165,6 @@
     <form action="{{ route('login') }}" method="POST">
         @method('POST')
         @csrf
-        
-        <div>
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="name" required value="{{ old('name') }}" placeholder="Your name goes here.">
-        </div>
 
         <div>
             <label for="email">Email: </label>
